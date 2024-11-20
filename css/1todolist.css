@@ -1,0 +1,15 @@
+/* starts from 2024.11.11 */
+
+h1{
+  color: cadetblue;
+  
+}
+
+ul li{
+  text-decoration: none;
+
+}
+
+ul li:hover{
+  background-color: rgb(201, 243, 228);
+}

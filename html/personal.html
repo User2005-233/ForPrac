@@ -1,0 +1,66 @@
+<!--from 24.11.7-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My personal webpage</title>
+        <link rel="stylesheet" href="personal.css">
+    </head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Sidebar Menu</h2>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Welcome!</h1>
+            <h2>My name is <em>Claude</em></h2>
+            <p>So on the left side there are some pages to get to know me.</p>
+            <h1><----------</h1>
+            <h2>If you want to collaborate with me, here's my informations:</h2>
+            <p>Email for work: <em>jesoncloud@163.com</em></p>
+            <p>Email for fun collab: <em>1615614808@qq.com</em></p>
+            <h2>And if you want to leave a message then this part is for you!</h2>
+            <form action="">
+                <fieldset>
+                    <legend><h3>We will not expose these!</h3></legend>
+                    <label for="anony">Anonymous?</label>
+                    <select name="anony" id="anony">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+
+                    <label for="gender">Your gender:</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="no">Refuse to say</option>
+                    </select><br><br>
+                    <label class="spaced" for="fname">Your name is:</label>
+                    <input type="text" id="fname" name="fname"><input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Your email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="company">Your company</label>
+                    <input type="text" id="company" name="company"><br><br>
+                    <label for="littleTalk"><h3>Anything to tell me?</h3></label>
+                    <textarea name="littleTalk" id="littleTalk">Leave your messages here.</textarea><br>
+                    <input type="submit" value="Click to SUBMIT">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    
+
+    
+</body>
+</html>
